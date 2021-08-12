@@ -1,0 +1,25 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class DesafioFor {
+	public static void main(String[] args) {
+	
+	Scanner entrada = new Scanner(System.in);
+	System.out.println("Quantas notas o aluno possui?");
+	
+	double qtdeElementos = entrada.nextDouble();
+	
+	double[] notas = new double[(int) qtdeElementos];
+	double nota = 0;
+	
+	for(int i = 0; i < notas.length; i++) {
+		System.out.println("Digite a nota" + notas[i]);
+		nota = entrada.nextDouble();
+		}
+	double soma =+ nota;
+	double media = soma/qtdeElementos;
+	
+	System.out.println("A média do aluno foi: " + media);
+	}
+}

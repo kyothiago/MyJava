@@ -1,0 +1,7 @@
+package oo.composicao.teste;
+
+public class Turma {
+	
+	String classe;
+
+}

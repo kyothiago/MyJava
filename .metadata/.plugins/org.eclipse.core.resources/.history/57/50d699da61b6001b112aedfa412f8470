@@ -1,0 +1,12 @@
+package oo.composicao.teste;
+
+public class TesteSalas {
+	public static void main(String[] args) {
+		Aluno a1 = new Aluno("joão", 16, 8.5);
+		Turma a = new Turma("A", a1);
+		Professor p1 = new Professor("Daniel", "Java Script", a);
+		
+		System.out.println(p1.materia);
+
+	}
+}

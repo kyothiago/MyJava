@@ -1,0 +1,12 @@
+package oo.composicao;
+
+import java.util.ArrayList;
+
+import com.sun.tools.javac.util.List;
+
+public class Curso {
+	
+	String nome;
+	List<Aluno> alunos = new ArrayList()<>();
+}
+

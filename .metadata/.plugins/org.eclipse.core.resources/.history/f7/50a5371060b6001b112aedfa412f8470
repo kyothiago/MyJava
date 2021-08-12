@@ -1,0 +1,9 @@
+package oo.composicao.teste;
+
+public class Aluno {
+	
+	String nome;
+	String idade;
+	double nota;
+
+}

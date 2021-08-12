@@ -1,0 +1,18 @@
+package oo.composicao;
+
+import java.util.ArrayList;
+
+public class Compra {
+	
+	String cliente;
+	ArrayList<Produto> produtos = new ArrayList<>();
+	
+	double valorTotal() {
+		double total = 0 ;
+		for(Produto produto: produtos) {
+			
+		}
+		return total;
+
+	}
+}

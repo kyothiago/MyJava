@@ -1,0 +1,9 @@
+package oo.composicao;
+
+public class Produto {
+	
+	String nome;
+	int qtde;
+	double preco;
+
+}
